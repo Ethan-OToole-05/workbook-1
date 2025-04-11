@@ -31,6 +31,7 @@ public class PayrollCalcApp {
             result = hoursWorked * payRate;
         }
 
+
         System.out.printf("%s " + "your gross pay is: " + "$%.2f", name, result);
 
     }

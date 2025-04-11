@@ -60,5 +60,7 @@ public class MathApp {
         double random = Math.random();
 
         System.out.println(random);
+
+
     }
 }
