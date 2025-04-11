@@ -48,6 +48,9 @@ public class ShopApp {
             totalDiscount = total * 0.20f;
             total = total - totalDiscount;
         }
+        else {
+            System.out.println("Invalid age");
+        }
 
         System.out.printf("Thank you. Your total is: $%.2f", total);
 
